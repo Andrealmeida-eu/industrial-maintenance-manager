@@ -689,7 +689,7 @@ Com os dados que já estão sendo armazenados, a aplicação pode crescer para c
 
 ---
 
-## 💡 Decisões de projeto
+## Decisões de projeto
 
 ### Por que uma aplicação web?
 
@@ -720,54 +720,6 @@ flowchart LR
     E --> F[Servidor Industrial / Cloud privada]
     F --> G[Integrações ERP / CMMS]
 ```
-
----
-
-## 🤝 Contribuição
-
-Sugestões, issues e pull requests podem ser utilizados para documentar melhorias e evolução do sistema.
-
-Fluxo sugerido:
-
-```bash
-git checkout -b feature/minha-melhoria
-git commit -m "feat: descreve a melhoria"
-git push origin feature/minha-melhoria
-```
-
-Depois, abra um Pull Request descrevendo o problema resolvido e o impacto da alteração.
-
----
-
-## 📝 Convenção de commits sugerida
-
-O projeto pode utilizar **Conventional Commits**:
-
-```text
-feat: nova funcionalidade
-fix: correção de erro
-refactor: melhoria interna sem alterar comportamento
-style: ajustes visuais ou formatação
-chore: tarefas de manutenção do projeto
-docs: documentação
-test: testes
-```
-
-Exemplos:
-
-```text
-feat: adiciona filtro de equipamentos por status
-fix: corrige saída de estoque com quantidade inválida
-docs: documenta execução com docker compose
-```
-
----
-
-## 📜 Licença
-
-Este projeto **ainda não possui um arquivo `LICENSE` definido**.
-
-Antes de disponibilizá-lo publicamente para uso ou distribuição por terceiros, escolha uma licença compatível com o objetivo do projeto, como MIT, Apache-2.0 ou outra política definida pelo responsável.
 
 ---
 
