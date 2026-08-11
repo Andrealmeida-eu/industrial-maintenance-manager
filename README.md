@@ -216,10 +216,10 @@ O módulo de estoque mantém um controle simples e objetivo para componentes e i
 <p align="center">
   <img src="assets/Tela_inicial.png" alt="Menu Principal" width="49%">
   <img src="assets/side_bar.png" alt="Menu Principal" width="49%">
-  <img src="assets/Tela_Turnos.png" alt="Apontamento Diário" width="49%">
+  <img src="assets/Tela_Tunos.png" alt="Apontamento Diário" width="49%">
 </p>
 <p align="center">
-  <img src="assets/modal-novosTurnos.png" alt="Abertura de Turnos" width="49%">
+  <img src="assets/modal_novosTurnos.png" alt="Abertura de Turnos" width="49%">
 </p>
 </details>
 
@@ -233,7 +233,7 @@ O módulo de estoque mantém um controle simples e objetivo para componentes e i
   <img src="assets/modal_entrada_em_bancada.png" alt="Gestão de Ordens de Serviço" width="49%">
 </p>
 <p align="center">
-  <img src="assets/Histórico-Operacional.png" alt="Histórico Operacional" width="49%">
+  <img src="assets/Histórico_Operacional.png" alt="Histórico Operacional" width="49%">
 </p>
 </details>
 
