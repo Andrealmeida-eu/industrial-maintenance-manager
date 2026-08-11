@@ -7,10 +7,10 @@ FROM maven:3.9-eclipse-temurin-17-alpine AS builder
 WORKDIR /app
 
 # Copia o arquivo pom.xml primeiro (Isso otimiza o cache do Docker)
-COPY ./barber/pom.xml .
+COPY ./maintenance/pom.xml .
 
 # Copia todo o código-fonte (pasta src) para dentro do container
-COPY ./barber/src ./src
+COPY ./maintenance/src ./src
 
 # Executa o Maven para compilar o projeto e gerar o .jar
 RUN mvn clean package -DskipTests

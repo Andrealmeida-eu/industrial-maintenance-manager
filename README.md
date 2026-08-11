@@ -23,7 +23,7 @@
 
 ---
 
-## 📌 Sobre o projeto
+##  Sobre o projeto
 
 O **Maintenance App** é uma aplicação web para apoiar a organização de uma bancada/setor de **manutenção elétrica industrial**.
 
@@ -35,7 +35,7 @@ Mais do que um projeto de estudo, esta aplicação representa a transformação 
 
 ---
 
-## 🎯 Problema que o sistema busca resolver
+## Problema que o sistema busca resolver
 
 Em uma rotina de manutenção industrial, é comum haver dificuldade para responder rapidamente perguntas como:
 
@@ -58,16 +58,16 @@ O Maintenance App concentra essas informações e cria um **histórico técnico 
 
 | Módulo | Recursos |
 | --- | --- |
-| ⚙️ **Equipamentos** | Cadastro, número de série, destino atual, status operacional, consulta detalhada e histórico |
-| 🧰 **Gestão de Bancada** | Abertura e acompanhamento de ordens de serviço, status de manutenção, técnico responsável e histórico da OS |
-| 📈 **Métricas do Equipamento** | Passagens pela bancada, ordens abertas, retornos para manutenção e tempos médios por estado operacional |
-| 📝 **Apontamento Diário** | Organização por turma/turno, integrantes, SM, OS, ocorrência/trabalho realizado e edição de registros |
-| 📅 **Consulta por Período** | Filtro de apontamentos e históricos por intervalo de datas |
-| 🔎 **Auditoria de Apontamentos** | Filtros para localizar registros sem SM, sem OS ou por termo pesquisado |
-| 📦 **Estoque Técnico** | Cadastro de componentes, localidade, prateleira, quantidade, entrada, saída, edição e exclusão |
-| 📄 **Relatório em PDF** | Exportação dos apontamentos de turnos por período |
-| 💾 **Persistência Local** | Banco SQLite mantido em volume persistente pelo Docker |
-| 🗄️ **Backup** | Script para cópia periódica do banco e retenção configurável dos arquivos |
+| **Equipamentos** | Cadastro, número de série, destino atual, status operacional, consulta detalhada e histórico |
+| **Gestão de Bancada** | Abertura e acompanhamento de ordens de serviço, status de manutenção, técnico responsável e histórico da OS |
+| **Métricas do Equipamento** | Passagens pela bancada, ordens abertas, retornos para manutenção e tempos médios por estado operacional |
+| **Apontamento Diário** | Organização por turma/turno, integrantes, SM, OS, ocorrência/trabalho realizado e edição de registros |
+| **Consulta por Período** | Filtro de apontamentos e históricos por intervalo de datas |
+| **Auditoria de Apontamentos** | Filtros para localizar registros sem SM, sem OS ou por termo pesquisado |
+| **Estoque Técnico** | Cadastro de componentes, localidade, prateleira, quantidade, entrada, saída, edição e exclusão |
+| **Relatório em PDF** | Exportação dos apontamentos de turnos por período |
+|  **Persistência Local** | Banco SQLite mantido em volume persistente pelo Docker |
+| **Backup** | Script para cópia periódica do banco e retenção configurável dos arquivos |
 
 ---
 
@@ -116,7 +116,7 @@ Status operacionais implementados:
 
 ---
 
-## 🧠 Visão funcional
+##  Visão funcional
 
 ### 1. Gestão de equipamentos
 
@@ -207,7 +207,46 @@ O módulo de estoque mantém um controle simples e objetivo para componentes e i
 
 ---
 
-## 🏗️ Arquitetura
+## 📸 Telas do Sistema
+
+<details>
+<summary><b> Menu e Apontamentos</b> (Clique para expandir)</summary>
+<br>
+
+<p align="center">
+  <img src="assets/Tela_inicial.png" alt="Menu Principal" width="49%">
+  <img src="assets/side_bar.png" alt="Menu Principal" width="49%">
+  <img src="assets/Tela_Turnos.png" alt="Apontamento Diário" width="49%">
+</p>
+<p align="center">
+  <img src="assets/modal-novosTurnos.png" alt="Abertura de Turnos" width="49%">
+</p>
+</details>
+
+<details>
+<summary><b>Gestão de Equipamentos e OS</b> (Clique para expandir)</summary>
+<br>
+
+<p align="center">
+  <img src="assets/Equip.Cadastrados.png" alt="Cadastro de Equipamentos" width="49%">
+  <img src="assets/Fluxo_manutençao.png" alt="Gestão de Ordens de Serviço" width="49%">
+  <img src="assets/modal_entrada_em_bancada.png" alt="Gestão de Ordens de Serviço" width="49%">
+</p>
+<p align="center">
+  <img src="assets/Histórico-Operacional.png" alt="Histórico Operacional" width="49%">
+</p>
+</details>
+
+<details>
+<summary><b> Controle de Estoque</b> (Clique para expandir)</summary>
+<br>
+
+<p align="center">
+  <img src="assets/almoxarifado.png" alt="Controle de Estoque" width="98%">
+</p>
+</details>
+
+## Arquitetura
 
 ```mermaid
 flowchart TB
