@@ -5,7 +5,9 @@
 ### Gestão de Manutenção Elétrica Industrial
 
 **Sistema full stack criado a partir de uma necessidade real de organização da rotina de manutenção industrial elétrica.**
-
+<p align="center">
+  <img src="assets/screenshots/hmi-main.png" alt="Sinótico da planta de abastecimento" width="900">
+</p>
 <p>
   <img alt="Status" src="https://img.shields.io/badge/status-em%20evolu%C3%A7%C3%A3o-2563eb?style=for-the-badge">
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
